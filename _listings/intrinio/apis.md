@@ -30,7 +30,7 @@ apis:
   tags: Owners
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/owners/master/_listings/intrinio/owners-insider-transactions-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/owners/master/_listings/intrinio/owners-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
