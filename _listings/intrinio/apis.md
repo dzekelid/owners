@@ -16,8 +16,8 @@ tags:
 - Free Tier
 - Financial Services
 - Enterprise
-created: "2018-03-23"
-modified: "2018-03-23"
+created: "2018-05-08"
+modified: "2018-05-08"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/owners/master/_listings/intrinio/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -30,7 +30,7 @@ apis:
   tags: Owners
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/owners/master/_listings/intrinio/securities-institutional-ownership-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/owners/master/_listings/intrinio/owners-insider-transactions-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
