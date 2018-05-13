@@ -33,18 +33,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/owners/master/_listings/microsoft-graph/groups-id-owners-get.md
-- name: Microsoft Graph API List Registered Owners
-  description: List registeredOwners Retrieve a list of users that are registered
-    owners of the device.
+- name: Microsoft Graph API List Owners
+  description: List owners Retrieve a list of the group's owners. The owners are a
+    set of non-admin users who are allowed to modify the group object.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Owners
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/owners/master/_listings/microsoft-graph/devices-id-registeredowners-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/owners/master/_listings/microsoft-graph/groups-id-owners-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/owners/master/_listings/microsoft-graph/devices-id-registeredowners-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/owners/master/_listings/microsoft-graph/groups-id-owners-get-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
