@@ -1,10 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Microsoft Graph API
-  description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft
-    cloud services through a single endpoint: https://graph.microsoft.com. Microsoft
-    Graph simplifies queries that would otherwise be more complex.'
+  title: Microsoft Graph API List Owners
+  description: List owners Retrieve a list of the group's owners. The owners are a
+    set of non-admin users who are allowed to modify the group object.
   version: 1.0.0
 host: graph.microsoft.com
 basePath: /
