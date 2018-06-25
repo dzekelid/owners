@@ -1,14 +1,16 @@
 ---
 name: Intrinio
 x-slug: intrinio
-description: Market for financial data APIs and analytics applications built with
-  those data feeds. Affordable, easy to access financial data for developers and investors
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+description: Intelligent Data, On Demand. The financial data platform for developers,
+  investors, students, and educators, with over 200 feeds including real-time, intraday,
+  EOD, and international financial data available via REST API, WebSocket, CSV, Excel,
+  and Goo...
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
 x-kinRank: "8"
-x-alexaRank: "321628"
+x-alexaRank: "303229"
 tags: Owners
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/owners/master/_listings/intrinio/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,7 +20,7 @@ apis:
     as the owner may be considered an insider.  Criteria for being an insider include
     being a director, officer, or 10%+ owner in the company.  Transactions are detailed
     for both non-derivative and derivative transactions by the insider.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com////owners/insider_transactions
   tags: Market Data,Owners,Insider Transactions
@@ -30,7 +32,7 @@ apis:
   description: Returns owners list and information for all institutional owners of
     securities covered by Intrinio.  Includes detailed info for a single owner and
     the ability to query by name.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com////owners
   tags: Market Data,Owners
@@ -40,7 +42,7 @@ apis:
 - name: Intrinio API Institutional Owners by Security
   x-api-slug: intrinio-api
   description: https://api.intrinio.com/securities/institutional_ownership?identifier={symbol}
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com////securities/institutional_ownership
   tags: Market Data,Securities,Institutional Ownership
@@ -49,10 +51,11 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/owners/master/_listings/intrinio/securitiesinstitutional-ownership-get-openapi.md
 - name: Intrinio API
   x-api-slug: intrinio-api
-  description: Market for financial data APIs and analytics applications built with
-    those data feeds. Affordable, easy to access financial data for developers and
-    investors
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
+  description: Intelligent Data, On Demand. The financial data platform for developers,
+    investors, students, and educators, with over 200 feeds including real-time, intraday,
+    EOD, and international financial data available via REST API, WebSocket, CSV,
+    Excel, and Goo...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28077-intrinio.jpg
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com//
   tags: Owners
@@ -82,6 +85,8 @@ x-common:
   url: admin@intrinio.com
 - type: x-email
   url: support@intrinio.com
+- type: x-email
+  url: acarpenter@intrinio.com
 - type: x-login
   url: https://intrinio.com/login
 - type: x-partners
