@@ -30,6 +30,21 @@ paths:
           description: OK
       tags:
       - Privatekeyownershipmsg
+    post:
+      summary: Add API Privatekeyownershipmsg
+      description: Add api privatekeyownershipmsg.
+      operationId: ApiPrivateKeyOwnershipMsgPost
+      x-api-path-slug: apiprivatekeyownershipmsg-post
+      parameters:
+      - in: body
+        name: request
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Privatekeyownershipmsg
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
